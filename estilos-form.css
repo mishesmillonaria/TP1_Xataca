@@ -1,0 +1,11 @@
+/*@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./Fuentes/IBMPlexMono-Bold.ttf");
+}*/
+
+form {
+  font-family: "IBM Plex Mono";
+  padding: 200px;
+  border-color: #ccc;
+  border-style: solid;
+}

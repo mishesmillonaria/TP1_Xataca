@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content="Xataca Tech Fest" />
       <link rel="stylesheet" href="estilos.css" />
+      <link rel="stylesheet" href="estilos-form.css" />
     </head>
     <body>
       <header class="portada"></header>
@@ -13,6 +14,8 @@
       <!-- Ensayo el formulario. -->
 
       <section>
+        <h2>Completa el siguiente formulario para hacer tu reserva:</h2>
+
         <form id="form">
           <label for="Nombre">Nombre</label>
           <input
@@ -37,6 +40,11 @@
           <br />
 
           <br />
+          <label for="Edad">Edad</label>
+          <input type="number" name="Edad" id="Edad" placeholder="" required />
+          <br />
+
+          <br />
           <label for="email">Email</label>
           <input
             type="email"
@@ -47,6 +55,7 @@
           />
 
           <br />
+          <br />
           <label for="Número de teléfono">Número de teléfono</label>
           <input
             type="number"
@@ -56,6 +65,16 @@
           />
 
           <br />
+
+          <br />
+          <label for="Cantidad de entradas">Cantidad de entradas</label>
+          <input
+            type="number"
+            name="Cantidad de entradas"
+            id="Cantidad de etradas"
+            placeholder=""
+            required
+          />
         </form>
       </section>
 

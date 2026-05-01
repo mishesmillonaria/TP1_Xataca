@@ -30,7 +30,7 @@ button {
 
 button:hover {
   color: #fff;
-  background-color: #586900;
+  background-color: #627600;
 }
 
 .título_fondo {
@@ -206,10 +206,6 @@ ul.carrusel {
 .tikita {
   position: absolute;
   right: 0;
-}
-
-form {
-  font-family: "IBM Plex Mono";
 }
 
 input[type="submit"] {
