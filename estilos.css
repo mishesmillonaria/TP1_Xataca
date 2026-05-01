@@ -1,0 +1,245 @@
+/* Acordate de poner los media queeries. */
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./Fuentes/IBMPlexMono-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Special Gothic Expanded One";
+  src: url("./Fuentes/SpecialGothicExpandedOne-Regular.ttf");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 140px;
+}
+
+button {
+  background-color: #d4ff00;
+  border-color: transparent;
+  padding: 20px;
+  box-shadow: #000 6px 6px 0px;
+  font-weight: bold;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #586900;
+}
+
+.título_fondo {
+  background-color: black;
+  padding: 16px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin-top: 40px;
+  margin-inline: 300px;
+  transform: translateX(-300px);
+}
+
+.ubicacion {
+  background-color: #fff;
+  color: #000;
+  padding: 2px;
+}
+
+.fecha {
+  background-color: black;
+  color: #fff;
+  padding: 2px;
+}
+
+header h1 {
+  font-family: "Special Gothic Expanded One";
+  font-size: 80px;
+  text-shadow: #ffffff77 0px 4px 0px;
+}
+
+/*
+header h2 {
+    opacity: 0.8;
+}
+
+header h2:hover {
+    opacity: 1.0;
+}
+*/
+
+section h2 {
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 20px;
+  margin: 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "IBM Plex Mono";
+}
+
+div.fondo_negro,
+ul.fondo_negro {
+  background-color: #000;
+  color: #fff;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(black, transparent);
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #fff;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  /* flex-direction: column;
+    */
+}
+
+nav ul {
+  font-family: "IBM Plex Mono";
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d4ff00;
+}
+
+nav li {
+  padding: 0%;
+  display: inline-block;
+}
+
+section p {
+  font-family: Arial;
+}
+
+.portada {
+  background-image: url("./Imágenes/fondo_header.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+}
+
+.fondo_portada {
+  padding: 40px;
+  background-image: url("./Imágenes/fondo_header.png");
+  display: flex;
+  align-items: center;
+  /*justify-content: space-between;*/
+  gap: 40px;
+}
+
+.imagenes-seccion {
+  display: flex;
+  gap: 20px;
+}
+
+.titulitos {
+  text-align: center;
+  margin: 100px;
+  margin-inline: 260px;
+  padding: 20px;
+}
+
+.listita {
+  margin: 0;
+  width: 800px;
+}
+
+ul.carrusel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: mandatory;
+  list-style: none;
+}
+
+.contenedor-tarjeta {
+  display: flex;
+  /*flex-direction: row;*/
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 80px;
+}
+
+.tarjeta {
+  width: 500px;
+}
+
+.tarjeta img {
+  width: 100%;
+}
+
+.adaptables {
+  width: 100%;
+  height: auto;
+}
+
+.tikita {
+  position: absolute;
+  right: 0;
+}
+
+form {
+  font-family: "IBM Plex Mono";
+}
+
+input[type="submit"] {
+  background-color: #d4ff00;
+  cursor: pointer;
+}
+
+.mensajito {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+}
+
+.escondidito {
+  display: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 80px;
+}
+
+@media (max-width: 600px) {
+  html,
+  body {
+    background-color: red !important;
+  }
+}
