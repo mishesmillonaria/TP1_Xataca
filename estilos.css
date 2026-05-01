@@ -208,11 +208,6 @@ ul.carrusel {
   right: 0;
 }
 
-input[type="submit"] {
-  background-color: #d4ff00;
-  cursor: pointer;
-}
-
 .mensajito {
   background-color: black;
   color: #fff;

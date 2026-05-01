@@ -1,7 +1,7 @@
 <html>
   <html lang="es">
     <head>
-      <title>Xataka Tech Fest Argentina 2026</title>
+      <title>Formulario: Xataka Tech Fest Argentina 2026</title>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content="Xataca Tech Fest" />
@@ -9,7 +9,16 @@
       <link rel="stylesheet" href="estilos-form.css" />
     </head>
     <body>
-      <header class="portada"></header>
+      <header class="portada">
+        <div class="título_fondo">
+          <h1>XATAKA TECH FEST ARGENTINA 2026</h1>
+
+          <h2>
+            Gadgets, innovación y futuro, toda la comunidad tech reunida en este
+            evento único.
+          </h2>
+        </div>
+      </header>
 
       <!-- Ensayo el formulario. -->
 
@@ -25,9 +34,7 @@
             placeholder="Escribir nombre..."
             required
           />
-          <br />
 
-          <br />
           <label for="Apellido">Apellido</label>
           <input
             type="text"
@@ -37,14 +44,9 @@
             required
           />
 
-          <br />
-
-          <br />
           <label for="Edad">Edad</label>
           <input type="number" name="Edad" id="Edad" placeholder="" required />
-          <br />
 
-          <br />
           <label for="email">Email</label>
           <input
             type="email"
@@ -54,33 +56,28 @@
             required
           />
 
-          <br />
-          <br />
-          <label for="Número de teléfono">Número de teléfono</label>
+          <label for="teléfono">Número de teléfono</label>
           <input
             type="number"
-            name="telefono"
-            id="telefono"
+            name="teléfono"
+            id="teléfono"
             placeholder="Número de teléfono"
           />
 
-          <br />
-
-          <br />
           <label for="Cantidad de entradas">Cantidad de entradas</label>
           <input
             type="number"
             name="Cantidad de entradas"
-            id="Cantidad de etradas"
+            id="Cantidad de entradas"
             placeholder=""
             required
           />
         </form>
+
+        <input type="submit" id="boton-enviar" value="Enviar" />
       </section>
 
       <!-- Falta edad, cantidad de entradas, arreglar lo del teléfono y no sé qué más. -->
-
-      <input type="submit" id="boton-enviar" value="Enviar" />
 
       <section class="mensajito escondidito" id="mensajito">
         <p>

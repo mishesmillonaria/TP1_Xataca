@@ -3,7 +3,7 @@
 var input_nombre = document.getElementById("Nombre");
 var input_apellido = document.getElementById("Apellido");
 var input_email = document.getElementById("email");
-var input_telefono = document.getElementById("telefono");
+var input_teléfono = document.getElementById("teléfono");
 var input_submit = document.getElementById("boton-enviar");
 
 console.log(input_nombre);
@@ -22,12 +22,12 @@ function enviarForm(event) {
   var valor_nombre = input_nombre.value;
   var valor_apellido = input_apellido.value;
   var valor_email = input_email.value;
-  var valor_telefono = input_telefono.value;
+  var valor_teléfono = input_teléfono.value;
 
   console.log(valor_nombre);
   console.log(valor_apellido);
   console.log(valor_email);
-  console.log(valor_telefono);
+  console.log(valor_teléfono);
 
   //Obtener los placeholders.
 
