@@ -25,6 +25,7 @@ button {
   padding: 20px;
   box-shadow: #000 6px 6px 0px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 button:hover {

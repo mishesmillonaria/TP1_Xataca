@@ -1,0 +1,81 @@
+<html>
+  <html lang="es">
+    <head>
+      <title>Xataka Tech Fest Argentina 2026</title>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Xataca Tech Fest" />
+      <link rel="stylesheet" href="estilos.css" />
+    </head>
+    <body>
+      <header class="portada"></header>
+
+      <script src="./papasfritas.js"></script>
+      <!-- Ensayo el formulario. -->
+
+      <!-- Falta edad, cantidad de entradas, arreglar lo del teléfono y no sé qué más. -->
+
+      <section>
+        <form id="form">
+          <label for="Nombre">Nombre</label>
+          <input
+            type="text"
+            name="Nombre"
+            id="Nombre"
+            placeholder="Escribir nombre..."
+            required
+          />
+          <br />
+
+          <br />
+          <label for="Apellido">Apellido</label>
+          <input
+            type="text"
+            name="Apellido"
+            id="Apellido"
+            placeholder="Escribir apellido..."
+            required
+          />
+
+          <br />
+
+          <br />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Escribir correo electrónico..."
+            required
+          />
+
+          <br />
+          <label for="Número de teléfono">Número de teléfono</label>
+          <input
+            type="number"
+            name="telefono"
+            id="telefono"
+            placeholder="Número de teléfono"
+          />
+
+          <br />
+        </form>
+      </section>
+
+      <input type="submit" id="boton-enviar" value="Enviar" />
+
+      <section class="mensajito escondidito" id="mensajito">
+        <p>
+          Gracias <span id="Nombre-placeholder">Nombre</span>
+          <span id="Apellido-placeholder">Apellido</span>, por dejar tus datos
+          bancarios a <span id="email-placeholder">correo</span>:DDD
+        </p>
+      </section>
+
+      <footer>
+        <p>Para estar al día, seguinos en nuestras redes sociales</p>
+        <p>&copy; Xataka 2026. Todos los derechos reservados.</p>
+      </footer>
+    </body>
+  </html>
+</html>

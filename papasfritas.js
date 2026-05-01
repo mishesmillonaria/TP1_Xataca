@@ -52,21 +52,3 @@ function enviarForm(event) {
   elemento_form = document.getElementById("form");
   elemento_form.classList.add("escondidito");
 }
-
-//Definimos el formulario y los botones, van a tener el querySelectorAll porque los malditos son más de uno, y necesitaban una clase por eso.
-
-var form = document.getElementById("form");
-var botoncitos = document.querySelectorAll(".boton");
-
-//Recorre los botoncitos (UwU) para el addEventListener.
-
-botoncitos.forEach(function (boton) {
-  boton.addEventListener("click", function () {
-    form.classList.remove("escondidito");
-
-    //Ahí el formulario se muestra, removiendo el escondidito.
-    //Y lo del scroll es para que lo lleve al formulario. Esto es tan humilde.
-
-    form.scrollIntoView({ behavior: "smooth" });
-  });
-});
