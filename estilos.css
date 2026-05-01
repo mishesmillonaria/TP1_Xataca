@@ -194,6 +194,11 @@ ul.carrusel {
   width: 500px;
 }
 
+.tarjeta:hover {
+  transition: 0.5s;
+  scale: 1.1;
+}
+
 .tarjeta img {
   width: 100%;
 }

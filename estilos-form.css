@@ -31,3 +31,7 @@ input {
   padding: 10px;
   margin: 6px;
 }
+
+input[type="number"] {
+  width: 80px;
+}

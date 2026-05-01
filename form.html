@@ -45,7 +45,14 @@
           />
 
           <label for="Edad">Edad</label>
-          <input type="number" name="Edad" id="Edad" placeholder="" required />
+          <input
+            type="number"
+            name="Edad"
+            id="Edad"
+            min="0"
+            max="120"
+            required
+          />
 
           <label for="email">Email</label>
           <input
@@ -58,7 +65,7 @@
 
           <label for="teléfono">Número de teléfono</label>
           <input
-            type="number"
+            type="tel"
             name="teléfono"
             id="teléfono"
             placeholder="Número de teléfono"
@@ -69,12 +76,15 @@
             type="number"
             name="Cantidad de entradas"
             id="Cantidad de entradas"
-            placeholder=""
+            min="0"
+            max="120"
             required
           />
         </form>
 
         <input type="submit" id="boton-enviar" value="Enviar" />
+
+        <input type="reset" id="boton-borrar" value="Borrar" />
       </section>
 
       <!-- Falta edad, cantidad de entradas, arreglar lo del teléfono y no sé qué más. -->
