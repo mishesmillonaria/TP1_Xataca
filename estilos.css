@@ -234,9 +234,41 @@ footer {
   padding: 80px;
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   html,
   body {
     background-color: red !important;
+  }
+}
+*/
+
+@media (min-width: 320px) {
+  .fecha,
+  .ubicacion {
+    filter: invert(100%);
+  }
+}
+
+@media (min-width: 320px) {
+  div {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) {
+  .info {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) {
+  footer {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) {
+  .fondo_portada {
+    width: 100%;
   }
 }
