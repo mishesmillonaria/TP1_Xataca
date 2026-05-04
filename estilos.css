@@ -23,7 +23,6 @@ header {
   background-color: #d4ff00;
   border-color: transparent;
   padding: 20px;
-  box-shadow: #000 6px 6px 0px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -241,6 +240,10 @@ input[type="text"] {
   width: 200px;
 }
 
+.escondidito {
+  display: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -267,14 +270,14 @@ footer {
   }
 }
 
+/*
 @media (min-width: 320px) {
-  div {
+  .info {
     width: 100%;
   }
 }
-
 @media (min-width: 320px) {
-  .info {
+  div {
     width: 100%;
   }
 }
@@ -284,9 +287,10 @@ footer {
     width: 100%;
   }
 }
-
 @media (min-width: 320px) {
   .fondo_portada {
     width: 100%;
   }
 }
+
+*/
