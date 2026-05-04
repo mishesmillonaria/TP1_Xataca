@@ -19,7 +19,7 @@ header {
   padding: 140px;
 }
 
-button {
+.boton {
   background-color: #d4ff00;
   border-color: transparent;
   padding: 20px;
@@ -28,7 +28,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.boton:hover {
   color: #fff;
   background-color: #627600;
 }
@@ -213,14 +213,32 @@ ul.carrusel {
   right: 0;
 }
 
-.mensajito {
-  background-color: black;
-  color: #fff;
-  padding: 20px;
+form {
+  font-family: "IBM Plex Mono";
+  padding: 160px;
+  border-color: #ccc;
+  border-style: solid;
+
+  display: flex;
+  flex-direction: column;
 }
 
-.escondidito {
-  display: none !important;
+input[type="submit"] {
+  background-color: #d4ff00;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  margin: 6px;
+}
+
+input[type="number"] {
+  width: 80px;
+}
+
+input[type="text"] {
+  width: 200px;
 }
 
 html {

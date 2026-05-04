@@ -3,7 +3,7 @@
 var input_nombre = document.getElementById("Nombre");
 var input_apellido = document.getElementById("Apellido");
 var input_email = document.getElementById("email");
-var input_teléfono = document.getElementById("teléfono");
+var input_telefono = document.getElementById("teléfono");
 var input_submit = document.getElementById("boton-enviar");
 
 console.log(input_nombre);
@@ -22,7 +22,7 @@ function enviarForm(event) {
   var valor_nombre = input_nombre.value;
   var valor_apellido = input_apellido.value;
   var valor_email = input_email.value;
-  var valor_teléfono = input_teléfono.value;
+  var valor_telefono = input_teléfono.value;
 
   console.log(valor_nombre);
   console.log(valor_apellido);
@@ -52,3 +52,21 @@ function enviarForm(event) {
   elemento_form = document.getElementById("form");
   elemento_form.classList.add("escondidito");
 }
+
+//Definimos el formulario y los botones, van a tener el querySelectorAll porque los malditos son más de uno, y necesitaban una clase por eso.
+
+var form = document.getElementById("form");
+var botoncitos = document.querySelectorAll(".boton");
+
+//Recorre los botoncitos (UwU) para el addEventListener.
+
+botoncitos.forEach(function (boton) {
+  boton.addEventListener("click", function () {
+    form.classList.remove("escondidito");
+
+    //Ahí el formulario se muestra, removiendo el escondidito.
+    //Y lo del scroll es para que lo lleve al formulario. Esto es tan humilde.
+
+    form.scrollIntoView({ behavior: "smooth" });
+  });
+});
