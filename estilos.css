@@ -10,6 +10,11 @@
   src: url("./Fuentes/SpecialGothicExpandedOne-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Noto Sans Condensed Light";
+  src: url("./Fuentes/NotoSans_Condensed-Light.ttf");
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -52,6 +57,10 @@ header {
   cursor: pointer;
 }
 
+.div_boton {
+  text-align: center;
+}
+
 .boton:hover {
   color: #fff;
   background-color: #627600;
@@ -75,6 +84,7 @@ header {
   background-color: #fff;
   color: #000;
   padding: 2px;
+  /*width: auto;*/
 }
 
 .fecha {
@@ -103,6 +113,11 @@ section h2 {
   padding: 10px;
 }
 
+section div h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
 ul {
   list-style: none;
 }
@@ -122,6 +137,8 @@ div.fondo_negro,
 ul.fondo_negro {
   background-color: #000;
   color: #fff;
+  font-family: "Noto Sans Condensed Light";
+  font-size: 30px;
 }
 
 nav {
@@ -159,7 +176,10 @@ nav li {
 }
 
 section p {
-  font-family: Arial;
+  font-family: "Noto Sans Condensed Light";
+  color: #fff;
+  background-color: #000;
+  padding: 20px;
 }
 
 .portada {
@@ -181,6 +201,36 @@ section p {
   gap: 40px;
 }
 
+.cuadro_invitados {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("./Imágenes/fondo_header.png");
+  flex-wrap: wrap;
+}
+
+/*DE LUCAS*/
+.tarjeta_invitado {
+  background-color: #fff;
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tarjeta_invitado img {
+  width: 100%;
+}
+
+.tarjeta_invitado p {
+  background-color: #fff;
+  color: #000;
+  font-size: 24px;
+}
+
 .imagenes-seccion {
   display: flex;
   gap: 20px;
@@ -191,6 +241,7 @@ section p {
   margin: 100px;
   margin-inline: 260px;
   padding: 20px;
+  font-size: large;
 }
 
 .listita {
