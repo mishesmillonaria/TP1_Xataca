@@ -41,7 +41,7 @@
         </div>
 
         <div>
-          <button class="boton"><h2>RESERVÁ AHORA</h2></button>
+          <button class="boton" id="boton"><h2>RESERVÁ AHORA</h2></button>
         </div>
       </header>
 
@@ -117,7 +117,7 @@
       </section>
 
       <div>
-        <button class="boton"><h2>RESERVÁ AHORA</h2></button>
+        <button class="boton" id="boton"><h2>RESERVÁ AHORA</h2></button>
       </div>
 
       <!-- Inicia la sección de bullets. -->
@@ -183,6 +183,9 @@
         </div>
       </section>
 
+       <div class="modal" id="modal">
+
+        <span class="cerrao">&times;</span>
 
           <form id="form">
           <label for="Nombre">Nombre</label>
@@ -242,21 +245,22 @@
         </form>
 
         <input type="submit" id="boton-enviar" value="Enviar" />
-
         <input type="reset" id="boton-borrar" value="Borrar" />
-      </section>
 
-      <!-- Falta edad, cantidad de entradas, arreglar lo del teléfono y no sé qué más. -->
-
-           <script src="./papasfritas.js"></script>
-
-      <section class="mensajito escondidito" id="mensajito">
+              <div class="mensajito escondidito" id="mensajito">
         <p>
           Gracias <span id="Nombre-placeholder">Nombre</span>
           <span id="Apellido-placeholder">Apellido</span>, por dejar tus datos
           bancarios a <span id="email-placeholder">correo</span>:DDD
         </p>
+      </div>
+
+        </div>
       </section>
+
+      <!-- Falta edad, cantidad de entradas, arreglar lo del teléfono y no sé qué más. -->
+
+           <script src="./papasfritas.js"></script>
       <footer>
         <p>Para estar al día, seguinos en nuestras redes sociales</p>
         <p>&copy; Xataka 2026. Todos los derechos reservados.</p>

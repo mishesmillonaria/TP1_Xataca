@@ -19,6 +19,31 @@ header {
   padding: 140px;
 }
 
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 80%;
+  height: 80%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cerrao {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cerrao:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .boton {
   background-color: #d4ff00;
   border-color: transparent;
