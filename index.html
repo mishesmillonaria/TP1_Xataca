@@ -21,7 +21,7 @@
           </ul>
         </nav>
 
-        <div class="título_fondo">
+                <div class="título_fondo">
           <h1>XATAKA TECH FEST ARGENTINA 2026</h1>
 
           <h2>
@@ -30,18 +30,24 @@
           </h2>
         </div>
 
-        <div class="info">
-          <div class="ubicacion">
-            <h2>BUENOS AIRES, TECNÓPOLIS</h2>
-          </div>
+        <div class="div_ubicacionyboton">
 
-          <div class="fecha">
-            <h2>SEP 30 - OCT 02</h2>
-          </div>
-        </div>
+            <div class="info">
 
-        <div class="div_boton">
-          <button class="boton" id="boton"><h2>RESERVÁ AHORA</h2></button>
+              <div class="ubicacion">
+                <h2>BUENOS AIRES, TECNÓPOLIS</h2>
+              </div>
+
+              <div class="fecha">
+                <h2>SEP 30 - OCT 02</h2>
+              </div>
+
+            </div>
+
+                        <div>
+              <button class="boton" id="boton"><h2>COMPRAR ENTRADA</h2></button>
+            </div>
+
         </div>
       </header>
 
@@ -49,7 +55,7 @@
       <section>
         <div>
           <div class="fondo_negro titulitos">
-            <h2>¿Qué vas a encontrar?</h2>
+            <h2 id="Merch">¿Qué vas a encontrar?</h2>
           </div>
 
           <div class="fondo_portada">
@@ -73,7 +79,7 @@
         <div>
           <div class="fondo_negro titulitos">
             <h2 id="Invitados">
-              Invitados especiales
+              Invitados
             </h2>
           </div>
           <h3>
@@ -141,9 +147,11 @@
         </div>
       </section>
 
-      <div class="div_boton">
-        <button class="boton" id="boton"><h2>RESERVÁ AHORA</h2></button>
-      </div>
+         <div class="fondo_negro titulitos">
+            <h2 id="Invitados">
+              En resumen:
+            </h2>
+          </div>
 
       <!-- Inicia la sección de bullets. -->
       <section class="contenedor-tarjeta">
@@ -208,11 +216,17 @@
         </div>
       </section>
 
+             <div class="div_botonbajo">
+        <h3>¿Estás listo para una experiencia inolvidable?</h3>
+        <button class="boton" id="boton"  style="width: 500px; height: 100px;"><h2>COMPRAR ENTRADA</h2></button>
+      </div>
+
        <div class="modal" id="modal">
 
         <span class="cerrao">&times;</span>
 
           <form id="form">
+          <h2>Registrá tus datos para comprar tu entrada</h2>
           <label for="Nombre">Nombre</label>
           <input
             type="text"
@@ -286,8 +300,13 @@
       <!-- Falta edad, cantidad de entradas, arreglar lo del teléfono y no sé qué más. -->
 
            <script src="./papasfritas.js"></script>
-      <footer>
-        <p>Para estar al día, seguinos en nuestras redes sociales</p>
+     <footer>
+        <p>SEGUINOS EN NUESTRAS REDES SOCIALES PARA ESTAR AL DÍA:</p>
+        <div>
+          <a href="https://www.xataka.com/"><img src="./Imágenes/xatala_logo.png" alt="" class="img-uniforme"></a>
+          <a href=""><img src="./Imágenes/instagram.png" alt="" class="img-uniforme"></a>
+
+        </div>
         <p>&copy; Xataka 2026. Todos los derechos reservados.</p>
       </footer>
     </body>
